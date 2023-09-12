@@ -15,9 +15,9 @@ function divison(a, b){
 };
 
 function exponent(a, b) {
-    let total = 0;
+    let total = 1;
 
-    for(let initial = 0; initial < b; b++){
+    for(let initial = 0; initial < b; initial++){
         total = a * total
     }
     return total;
