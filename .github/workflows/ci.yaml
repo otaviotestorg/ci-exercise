@@ -16,4 +16,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - run: npm run test
-      - run: npm run math.js
+      - run: npm run start
