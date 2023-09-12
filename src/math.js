@@ -30,8 +30,6 @@ function main() {
     console.log(times(1,2))
     console.log(divison(1,2))
     console.log(exponent(1,2))
-    
-    return;
 }
 
 module.exports = { sum, sub, times, divison, exponent, main }
