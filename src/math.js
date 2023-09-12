@@ -24,7 +24,7 @@ function exponent(a, b) {
 };
 
 
-(function main() {
+function main() {
     console.log(sum(1,2))
     console.log(sub(1,2))
     console.log(times(1,2))
@@ -32,6 +32,6 @@ function exponent(a, b) {
     console.log(exponent(1,2))
     
     return;
-})()
+}
 
-module.exports = { sum, sub, times, divison, exponent }
+module.exports = { sum, sub, times, divison, exponent, main }
