@@ -15,9 +15,9 @@ function divison(a, b){
 };
 
 function exponent(a, b) {
-    let total = 0;
+    let total = 1;
 
-    for(let initial = 0; initial < b; b++){
+    for(let initial = 0; initial < b; initial++){
         total = a * total
     }
     return total;
@@ -30,8 +30,6 @@ function main() {
     console.log(times(1,2))
     console.log(divison(1,2))
     console.log(exponent(1,2))
-    
-    return;
 }
 
 module.exports = { sum, sub, times, divison, exponent, main }
